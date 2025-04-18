@@ -16,3 +16,11 @@ https://www.figma.com/design/zZBWwvN5aiQvffBnxBWl6W/Restaurant-Landing-Page-Webs
 https://www.figma.com/design/i8rZcxefdAJgUsrpmklYCO/Food-Hut---Food-Ordering-Responsive-Design---Community-?node-id=11-5&p=f&t=lc5tTOGVghqHgqYW-0
 
 ---------------------------------------------
+
+# FIGMA DESIGN 4 : FURNIRO WEBSITE
+https://www.figma.com/design/CtjCJbNoubCKBp88pWokQJ/eCommerce-Website-%7C-Web-Page-Design-%7C-UI-KIT-%7C-Interior-Landing-Page--Community---Copy-?node-id=1-3&p=f&t=W4zCo1CIkjBSDnPu-0
+
+---------------------------------------------
+
+# FIGMA DESING 5 : SOLAR SYSTEM WEBSITE
+https://www.figma.com/design/6fU33jPArz9Lb4QuwTvXBq/3D-Interactive-Animation-For-UNIVERSE--Community---Community---Copy-?node-id=16-334&p=f&t=2C0K85R3VZaFsKJD-0
