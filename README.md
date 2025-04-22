@@ -31,3 +31,6 @@ https://www.figma.com/design/6fU33jPArz9Lb4QuwTvXBq/3D-Interactive-Animation-For
 https://www.figma.com/design/G3qGJiF7008NE8ohJXyHcU/Shopery---Organic-eCommerce-Shop-Website-Figma-Template--Community---Community---Copy-?node-id=1801-17002&t=LYEomnFbeH1K8Xer-0
 
 --------------------------------------------
+
+# WEBSITE LINK FILE 
+https://docs.google.com/spreadsheets/d/1fV-St2z8I2EioOv70d76xpJ7_PN-LcUf/edit?usp=sharing&ouid=100617872324544259535&rtpof=true&sd=true
