@@ -1,0 +1,28 @@
+body{
+  font-family: "Inter";
+}
+.bg_image{
+  background-image: url("/public/assets/images/bg_image.png");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+.heading{
+  font-size: 4rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+.left-bar{
+  height: 71vh;
+}
+.btn-location{
+  border-top-left-radius: 4rem ;
+  border-bottom-left-radius: 4rem ;
+  border-top-right-radius: .7rem ;
+  border-bottom-right-radius: .7rem ;
+}
+.bg-row-color{
+  background-color: rgba(255, 255, 255, 0.1);
+  border-top-left-radius: 3rem;
+  border-top-right-radius: 3rem;
+  backdrop-filter: blur(4px);
+}

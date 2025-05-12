@@ -18,15 +18,15 @@
         <div class="card shadow-sm mx-auto" style="max-width: 400px;">
             <div class="card-body">
 
-                
+
                 <h4 class="card-title mb-4">🧠 Quick Quiz</h4>
                 <p id="question" class="fw-bold">What is the capital of Pakistan?</p>
 
                 <div class="d-grid gap-2">
-                    <button id="" class="btn btn-outline-primary" onclick="check()">Karachi</button>
-                    <button class="btn btn-outline-primary" onclick="check()">Lahore</button>
-                    <button class="btn btn-outline-primary" >Islamabad</button>
-                    <button class="btn btn-outline-primary">Multan</button>
+                    <button id="" class="btn btn-outline-primary" onclick="check('Karachi')">Karachi</button>
+                    <button class="btn btn-outline-primary" onclick="check('Lahore')">Lahore</button>
+                    <button class="btn btn-outline-primary" onclick="check('Islamabad')">Islamabad</button>
+                    <button class="btn btn-outline-primary" onclick="check('Multan')">Multan</button>
                 </div>
 
                 <div id="result" class="mt-4 fw-semibold"></div>
@@ -35,14 +35,63 @@
     </div>
 
 
+    <div class="h1 text-danger" id="clock"></div>
 
 
+    <input type="password" class="form-control w-25"  id="passInput">
+    <div id="message"></div>
+    <button class="btn btn-success" onclick="checkPass();">Register</button>
+
+
+    <div id="array"></div>
+    <button class="btn btn-success" onclick="multipleData();">Click Me</button>
 
 
     <script>
-       
-        var result = document.getElementById("result");
+
+        function check(value){
+
+            var result = document.getElementById('result');
+
+            if(value = 'Islamabad'){
+                result.innerHTML = '<div class="text-success"> Correct Answer !!</div>';
+            }else{
+                result.innerHTML = '<div class="text-danger"> Wrong Answer !!</div>';
+
+            }
+           
+        }
+
+        function setClock (){
+            var date = new Date();
+            document.getElementById('clock').innerHTML = date.toLocaleTimeString();
+        }
         
+        setInterval(setClock,1000);
+
+        function checkPass (){
+            var pass = document.getElementById('passInput').value;
+            var message  = document.getElementById('message');
+
+            message.innerHTML = pass.length >6? "Strong Pass !!" : "Weak Pass !!";
+        }
+
+
+        function multipleData(){
+
+            let name = [
+                "Ali",
+                "ahmad",
+                "Anas",
+                "Hamza"
+            ];
+           
+
+            for(let x=0; x < name.length; x++){
+                document.getElementById('array').innerHTML += name[x];
+            }
+        }
+
     </script>
 
 
