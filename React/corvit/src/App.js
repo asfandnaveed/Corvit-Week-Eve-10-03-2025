@@ -1,6 +1,18 @@
+import { useEffect, useState } from 'react';
 import './App.css';
 
 function App() {
+
+  const [weather,setWeather] = useState(null);
+
+  useEffect(()=>{
+    fetch(`http://api.weatherapi.com/v1/current.json?key=43297bb031ed4a1898b51508240909&q=Lahore`)
+    .then((response)=> response.json())
+    .then((data)=> setWeather(data));
+  });
+
+
+
   return (
     <div className="container mt-5">
       <div className="card shadow-lg p-4 mx-auto" style={{ maxWidth: '500px' }}>
@@ -17,19 +29,23 @@ function App() {
           </button>
         </form>
 
-        <div className="text-center">
-          <h3>City Name, Country</h3>
-          <h1>20.1°C</h1>
-          <p className="text-capitalize">clear sky</p>
+        {weather  ? 
+        (<div className="text-center">
+          <h3>{weather.location.name}, {weather.location.country}</h3>
+          <h1>{weather.current.temp_c}°C</h1>
+          <p className="text-capitalize">{weather.current.condition.text}</p>
           <img
             src="https://openweathermap.org/img/wn/01d@2x.png"
             alt="Weather Icon"
           />
           <div className="mt-3">
-            <p>Humidity: 80%</p>
+            <p>Humidity: {weather.current.humidity}%</p>
             <p>Wind: 5 m/s</p>
           </div>
-        </div>
+        </div>) : 
+        (<p>Data is Loading ...</p>)}
+
+        
       </div>
     </div>
 
