@@ -32,8 +32,7 @@ https://www.figma.com/design/G3qGJiF7008NE8ohJXyHcU/Shopery---Organic-eCommerce-
 
 --------------------------------------------
 
-Website Link
-https://drive.google.com/file/d/1kkkniyIKJbqcvP3CKv99KFiua0dwNQKg/view?usp=sharing
+
 
 # WEBSITE LINK FILE 
 https://docs.google.com/spreadsheets/d/1fV-St2z8I2EioOv70d76xpJ7_PN-LcUf/edit?usp=sharing&ouid=100617872324544259535&rtpof=true&sd=true
@@ -41,3 +40,8 @@ https://docs.google.com/spreadsheets/d/1fV-St2z8I2EioOv70d76xpJ7_PN-LcUf/edit?us
 --------------------------------------------
 # FIGMA WEBSITE : CHAT APP
 https://www.figma.com/design/WlUmetb63OV7nOkw8sL4ry/Chat-Web-UI-Kit--Community---Copy-?node-id=52-3911&p=f&t=iAv491vkltLCFU6o-0
+
+--------------------------------------------
+
+# Website Link
+https://drive.google.com/file/d/1kkkniyIKJbqcvP3CKv99KFiua0dwNQKg/view?usp=sharing
